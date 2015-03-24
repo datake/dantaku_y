@@ -123,7 +123,8 @@
     android:background="#ffffff"
     android:layout_alignTop="@+id/button11"
     android:layout_alignLeft="@+id/button3"
-    android:layout_alignStart="@+id/button3" />
+    android:layout_alignStart="@+id/button3"
+    android:onClick="plus" />
 
     <Button
         android:layout_width="wrap_content"
@@ -156,6 +157,38 @@
         android:layout_below="@+id/button11"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:text="＝" />
+        android:text="＝"
+        android:onClick="equal" />
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/ope"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/num2"
+        android:background="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/answer"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/answer"
+        android:background="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/button10"
+        android:layout_toStartOf="@+id/button10" />-->
 
 </RelativeLayout>
